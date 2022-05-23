@@ -25,7 +25,7 @@
     .para1{
     text-align: center;
     font-size: 15px;
-    margin-top: -10px;
+    margin-top: 0px;
     }
 
     p{
@@ -81,10 +81,25 @@
     border: none;
     font-size: 18px;
     border-radius: 10px;
+    text-align : center;
+    margin-bottom: 10px;
+    padding: 10px;
+    }
+    
+
+    .des:hover{
+    background: radial-gradient(rgb(177, 238, 180), rgb(233, 201, 211));
     }
 
-    td:hover{
-    background: radial-gradient(pink, rgb(221, 103, 103));
+    tr,td{
+        border: none;
+    }
+
+    table{
+        padding: 20px;
+    }
+    .head{
+        color: gray;
     }
 
 
@@ -100,34 +115,38 @@
     <form action="./ui/store.php"
     method = "post">
 <center>
-<table border=5>
-
-<tr style= "margin-top: 0px;" align='center'>
-    <th align="center" colspan="2"><h1> STATUS INFOTAINMENT</h1></th>
+<table border="2">
+<tr class="head">
+    <td><h2>STATUS</h2>
+    <td><h2> INFOTAINMENT </h2>
 </tr>
+
+<!-- <tr style= "margin-top: 0px;" align='center'>
+    <th align="center" colspan="2"><h1> STATUS INFOTAINMENT</h1></th>
+</tr> -->
 
 <tr>
 <td> Name
-<td> <input type="text" name=t1 placeholder="Enter your Name here" required>
+<td> <input class="des" type="text" name=t1 placeholder="Enter your Name here" required>
 </tr>
 
 <tr>
 <td> Password
-<td> <input type="password" name=t2 placeholder="Enter your Password here" required>
+<td> <input class="des" type="password" name=t2 placeholder="Enter your Password" required>
 </tr>
 
 <tr>
 <td> Email
-<td> <input type="email" name=t3 placeholder="Enter your Email here" required>
+<td> <input class="des" type="email" name=t3 placeholder="Enter your Email here" required>
 </tr>
 
 <tr>
 <td> DOB
-<td> <input type="date" name=t4 placeholder="Enter Date of Birth" required>
+<td> <input class="des" type="date" name=t4 placeholder="Enter Date of Birth" required>
 </tr>
 
 <tr>
-<td colspan=2 align=center> <input type=submit value=Register>
+<td colspan=2 align=center> <input class="des" type=submit value=Register>
 </tr>
 
 </table
