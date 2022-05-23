@@ -2,3 +2,4 @@ Himanshu Gupta::him::himanshu.gupta_cs19@gla.ac.in::2021-11-15::1000::
 Karan Gupta::kar::karan.gupta_cs19@gla.ac.in::2021-11-15::1001::
 Samarth Gupta::sam::samarth.gupta_cs19@gla.ac.in::2021-11-15::1002::
 Mukul ::123::mukul.ag_cs19@gla.ac.in::2022-05-23::1003::
+Lalit::1234::lalit@gmail.com::2022-05-03::1004::
