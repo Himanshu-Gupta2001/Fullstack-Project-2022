@@ -83,8 +83,16 @@ tr{
     border-radius: 10px;    
 }
 
-td:hover{
-    background: radial-gradient(pink, rgb(221, 103, 103));   
+.des1:hover{
+    background: radial-gradient(rgb(241, 248, 142), rgb(243, 172, 125));   
+}
+
+tr,td{
+    border: none;
+}
+
+table{
+    padding: 20px;
 }
 
 </style>
@@ -97,20 +105,21 @@ td:hover{
     <div class="login">
 <center>
     <h1>Login</h1>
-<table border=5 >
+<table border=4 >
 <tr>
 <td> Email
-<td> <input type="email" name=t1 placeholder="Enter your Email here">
+<td> <input class="des1" type="email" name=t1 placeholder="Enter your Email here">
 </tr>
 <tr>
 <td> Password
-<td> <input type="password" name=t2 placeholder="Enter your Password">
+<td> <input class="des1" type="password" name=t2 placeholder="Enter your Password">
 </tr>
 <tr  >
-<td  colspan=2 align=center> <input type=submit value=login>
+<td  colspan=2 align=center> <input class="des1" type=submit value=login>
 </tr>
 </table>
-<a class="forget" href="#">Forget Password</a>
+<br />
+<!-- <a class="forget" href="#">Forget Password</a> -->
 </center>
 </div>
 </form>
